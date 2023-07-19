@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkTree</title>
+</head>
+<body>
+    <h1>LinkTree</h1>
+    <ul>
+        {% for link in links %}
+        <li><a href="{{link.url}}">{{ link.name}}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
